@@ -1,0 +1,17 @@
+function numbers1toNwithStep3(input) {
+    let n = Number(input[0]);
+    for (let i = 1; i <= n; i += 3) {
+        console.log(i);
+    }
+}
+
+//numbers1toNwithStep3(["10"]);
+
+function revert(input) {
+    let n = Number(input[0]);
+    for (i = n; i > 0 ; i-= 3) {
+        console.log(i);
+    }
+}
+
+revert(["20"]);
